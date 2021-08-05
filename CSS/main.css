@@ -1,16 +1,25 @@
 /* Студия */
 .dark-bg{
   background-color: var(--dark-bg-color);
+  background-image:linear-gradient(
+  rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)), 
+  url("../images_hero/bg_hero.jpg");
+}
+
+.dark-bg-footer{
+  background-color: var(--dark-bg-color);
+}
+
+.dark-bg-footer.footer{
+  padding-top: 60px;
+  padding-bottom: 60px; 
 }
 
 .grey-bg{
   background-color: #F5F4FA;
 }
 
-.footer.dark-bg{
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 
 
 /* Container Hero */
@@ -78,6 +87,7 @@
 .advantages{
   margin-bottom: 10px;
     
+  display: block;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -98,12 +108,23 @@
   display: flex;
 }
 
+.card-advantages::before{
+  background-image: url();
+}
+
 .adv-item{
   width: 270px;
 }
 
 .card-advantages .adv-item + .adv-item {
   margin-left: 30px; 
+}
+
+.advantages::before{
+  content: "";
+  background-color: #F5F4FA;
+  width: 270px;
+  height: 120px;
 }
 
 /*What we are doing*/
