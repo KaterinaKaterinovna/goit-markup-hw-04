@@ -43,6 +43,10 @@
 
 
 /* Projects */
+.button-item:hover{
+  box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.24);
+}
+
 .project-list{
   display: flex;
   flex-wrap: wrap;
@@ -116,13 +120,49 @@
   margin-left: 30px; 
 }
 
-.icon-antenna::before{
-  content: "";
-  display: inline-block;
+/* Icons */
+.adv-item::before{
+  content:'';
+  margin-bottom: 30px;
+  display: block;
   height: 120px;
-  background-image: url('../images_icons/antenna.jpg/');
-  background-color: rgb(245, 244, 250);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5F4FA;
 }
+
+.icon-antenna::before{
+  background-image: url('../images_icons/antenna.svg');
+}
+
+.icon-clock::before{
+  background-image: url('../images_icons/clock.svg');
+}
+
+.icon-diagrama::before{
+  background-image: url('../images_icons/diagrama.svg');
+  }
+
+.icon-astronaut::before{
+  background-image: url('../images_icons/astronaut.svg');
+}
+
+
+/* Social icons */
+.icon-social{
+  width: 20px;
+  height: 20px;
+  margin-top: 16px; 
+}
+
+.icon-social:hover{
+  background-color:var(--accent-text-color);
+}
+
+.link-social .icon-social + .icon-social{
+  margin-left: 10px;
+}
+
 
 /*What we are doing*/
 .page-title{
