@@ -149,17 +149,32 @@
 
 
 /* Social icons */
+.link-social{
+  display: inline-flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  text-decoration: none;
+  margin-top: 16px;
+}
+  
 .icon-social{
   width: 20px;
   height: 20px;
-  margin-top: 16px; 
+  margin-top: 16px;
+  fill: #AFB1B8;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 
-.icon-social:hover{
+ .icon-social:hover,
+ .link-social:hover{
   background-color:var(--accent-text-color);
+  fill:#ffffff;
 }
 
-.link-social .icon-social + .icon-social{
+ .card-content .link-social + .link-social{
   margin-left: 10px;
 }
 
