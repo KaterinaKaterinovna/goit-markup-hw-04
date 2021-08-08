@@ -156,16 +156,16 @@
   border-radius: 50%;
   text-decoration: none;
   margin-top: 16px;
+  align-items: center;
+  justify-content: center;
 }
   
 .icon-social{
   width: 20px;
   height: 20px;
-  margin-top: 16px;
   fill: #AFB1B8;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
+  align-items: center;
+  justify-content: center;
 }
 
  .icon-social:hover,
@@ -237,6 +237,26 @@
   text-align: center;
   background-color: #ffffff;
   border-radius: 4px;
+}
+
+
+/* Regular Customers */
+.client-list{
+  display: inline-flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid;
+  border-color: #AFB1B8;
+  border-radius: 4px;
+}
+
+.client-item{
+  
+}
+
+.link-clients{
+  
+  
 }
 
 
